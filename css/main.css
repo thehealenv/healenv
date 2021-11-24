@@ -1910,7 +1910,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 		grid-template-columns: 75% 25%;
 	}
 }
-.ttitle{
+.ttitle h3{
 	color: #fff;
 }
 .register-btn {
