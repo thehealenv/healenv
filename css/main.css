@@ -1897,6 +1897,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 /* ------------------------------------------------------------------- 
  * ## home register
  * ------------------------------------------------------------------- */
+
+
+#register{
+	background: #fff;
+}
+
 .envregister {
     position: relative;
     width: 100%;
@@ -1906,23 +1912,22 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 @media (min-width: 768px){
 	.envregister{
-		display:grid;
-		grid-template-columns: 75% 25%;
+		display:table;
+	}
+	.btnn{
+	width: 50%
 	}
 }
 .ttitle h3{
 	text-align: left;
 }
     .home-register__buttons {
-        padding-top: 1.2rem;
-        text-align: center;
     }
-    .home-register__buttons .btnn {
+    .btnn {
         display: block;
-        width: 70%;
         margin: 1.5rem 0 0 0;
     }
-.home-register__buttons .btnn:last-child{
+.btnn:last-child{
    margin-right: 0;
 }
 
