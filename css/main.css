@@ -1926,6 +1926,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .btnn {
         display: block;
         margin: 1.5rem 0 0 0;
+	font-family: "montserrat-medium", sans-serif;
     }
 .btnn:last-child{
    margin-right: 0;
