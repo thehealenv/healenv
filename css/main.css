@@ -1913,42 +1913,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .ttitle h3{
 	color: #fff;
 }
-.register-btn {
-	transition: .2s ease-in-out;
-	min-width: 80%;
-	text-align: center;
-
-	box-shadow: 0 5px 14px 5px rgba(255,127,127,.27);
-	border-radius: 4px;
-	padding: 9px 18px;
-	font-size: 16px;
-	display: inline-block;
-	vertical-align: middle;
-	margin: 0;
-	text-decoration: none;
-	border: 0;
-	cursor: pointer;
-	line-height: normal;
-	position: relative;
-	text-transform: uppercase;
-	font-weight: bold;
-
-}
-
-.register-btn a{
-	color: #39b54a !important;
-	text-decoration: none;
-}
-.register-btn a:hover{
-	color: #fff !important;
-	text-decoration: none;
-}
-
-.register-btn:hover {
-	background-color: #39b54a;
-	box-shadow: 0 5px 14px 5px rgba(127,161,255,.27);
-}
-
 
  * ------------------------------------------------------------------- */
 
