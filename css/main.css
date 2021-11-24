@@ -1911,8 +1911,39 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	}
 }
 .ttitle h3{
-	color: #fff !important;
+	text-align: left;
 }
+    .home-register__buttons {
+        padding-top: 1.2rem;
+        text-align: center;
+    }
+    .home-register__buttons .btnn {
+        display: block;
+        width: 70%;
+        margin: 1.5rem 0 0 0;
+    }
+.home-register__buttons .btnn:last-child{
+   margin-right: 0;
+}
+
+.home-register__buttons .btnn:hover, 
+.home-register__buttons .btnn:focus {
+    background: #000 !important;
+    color: #fff;
+}
+
+.btnn--stroke, button.btnn--stroke {
+    background: transparent !important;
+    border: 0.2rem solid #39b54a;
+    color: #39b54a;
+}
+
+.btnn--stroke:hover, button.btnn--stroke:hover {
+    border: 0.2rem solid #000000;
+    color: #fff;
+}
+
+
 
  * ------------------------------------------------------------------- */
 
