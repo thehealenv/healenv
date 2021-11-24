@@ -33,6 +33,7 @@
  *      ## mobile menu toggle 
  *  # home 
  *      ## home content
+ *      ## home register
  *      ## home social 
  *      ## home animations
  *  # about
@@ -1896,7 +1897,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 /* ------------------------------------------------------------------- 
  * ## home register
  * ------------------------------------------------------------------- */
-.envregister{
+.envregister {
     position: relative;
     width: 100%;
     margin: 30px auto!important;
@@ -1909,7 +1910,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 		grid-template-columns: 75% 25%;
 	}
 }
-
+.ttitle{
+	color: #fff;
+}
 .register-btn {
 	transition: .2s ease-in-out;
 	min-width: 80%;
