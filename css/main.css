@@ -1911,7 +1911,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	}
 }
 .ttitle h3{
-	color: #fff;
+	color: #fff !important;
 }
 
  * ------------------------------------------------------------------- */
